@@ -1,0 +1,372 @@
+ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 30px;
+    position: relative;
+    top: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+li a{
+    color: black;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+nav{
+    text-align: center;
+}
+.demo a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 25px;
+    z-index: 300;
+    height: 40px;
+}
+.top h1{
+    color: white;
+    font-family: arial;
+    width: 500px;
+    position: relative;
+    top: 140px;
+    left: 270px;
+}
+.top span{
+    color: rgb(255, 93, 93);
+}
+.button a{
+    padding: 10px;
+    background-color: tomato;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    position: relative;
+    top: 200px;
+    left: 270px;
+}
+.top img{
+    position: relative;
+    bottom: 140px;
+    left: 800px;
+}
+.top p{
+    color: white;
+    font-size: 20px;
+    font-family: arial;
+    width: 360px;
+    position: relative;
+    top: 160px;
+    left: 270px;
+}
+.demo{
+    background: rgb(162,178,255);
+    background: radial-gradient(circle, rgba(162,178,255,1) 0%, rgba(202,249,255,1) 100%);
+    display: inline;
+    border-radius: 30px;
+    position: relative;
+    bottom: 600px;
+    left: 450px;
+    padding: 13px;
+    font-family: arial;
+    width: 30px;
+}
+.demo a:hover{
+    background: rgb(202,249,255);
+    background: radial-gradient(circle, rgba(202,249,255,1) 0%, rgba(162,178,255,1) 100%);
+    font-size: 20px;
+    padding: 15px;
+    transition-duration: 300ms;
+    height: 20px;
+    border-radius: 30px;
+    right: 30px;
+}
+
+.top{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 4%, rgba(181,228,255,1) 32%, rgba(141,213,255,1) 47%, rgba(96,196,255,1) 64%, rgba(45,177,255,1) 83%, #00a0ff 100%);
+}
+.container{
+    width: 1200px;
+    background-color: white;
+    z-index: 20;
+    margin: auto;
+    position: relative;
+    bottom: 100px;
+    height: 600px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+.container h1{
+    width: 500px;
+    position: relative;
+    left: 370px;
+    text-align: center;
+    font-family: arial;
+    top: 35px;
+}
+.container span{
+    color: rgb(255, 75, 75);
+}
+.container .unitusaha{
+    width: 110px;
+    height: 110px;
+    background: rgb(198,254,255);
+    background: linear-gradient(0deg, rgba(198,254,255,1) 0%, rgba(54,185,241,1) 49%, rgba(0,144,255,1) 100%);
+    border-radius: 25px;
+    position: relative;
+    top: 70px;
+    left: 210px;
+}
+.container .keuangan{
+    width: 110px;
+    height: 110px;
+    background: rgb(198,254,255);
+    background: linear-gradient(0deg, rgba(198,254,255,1) 0%, rgba(54,185,241,1) 49%, rgba(0,144,255,1) 100%);
+    border-radius: 25px;
+    position: relative;
+    top: -42px;
+    left: 380px;
+}
+.container .kesehatan{
+    width: 110px;
+    height: 110px;
+    background: rgb(198,254,255);
+    background: linear-gradient(0deg, rgba(198,254,255,1) 0%, rgba(54,185,241,1) 49%, rgba(0,144,255,1) 100%);
+    border-radius: 25px;
+    position: relative;
+    bottom: 152px;
+    left: 550px;
+}
+.container .tahfizh{
+    width: 110px;
+    height: 110px;
+    background: rgb(198,254,255);
+    background: linear-gradient(0deg, rgba(198,254,255,1) 0%, rgba(54,185,241,1) 49%, rgba(0,144,255,1) 100%);
+    border-radius: 25px;
+    position: relative;
+    bottom:263px;
+    left: 720px;
+}
+.container .kesantrian{
+    width: 110px;
+    height: 110px;
+    background: rgb(198,254,255);
+    background: linear-gradient(0deg, rgba(198,254,255,1) 0%, rgba(54,185,241,1) 49%, rgba(0,144,255,1) 100%);
+    border-radius: 25px;
+    position: relative;
+    bottom: 374px;
+    left: 900px;
+}
+.container .pelanggaran{
+    width: 110px;
+    height: 110px;
+    background: rgb(198,254,255);
+    background: linear-gradient(0deg, rgba(198,254,255,1) 0%, rgba(54,185,241,1) 49%, rgba(0,144,255,1) 100%);
+    border-radius: 25px;
+    position: relative;
+    bottom: 310px;
+    left: 300px;
+}
+.container .perizinan{
+    width: 110px;
+    height: 110px;
+    background: rgb(198,254,255);
+    background: linear-gradient(0deg, rgba(198,254,255,1) 0%, rgba(54,185,241,1) 49%, rgba(0,144,255,1) 100%);
+    border-radius: 25px;
+    position: relative;
+    bottom: 420px;
+    left: 470px;
+}
+.container .raportpsb{
+    width: 110px;
+    height: 110px;
+    background: rgb(198,254,255);
+    background: linear-gradient(0deg, rgba(198,254,255,1) 0%, rgba(54,185,241,1) 49%, rgba(0,144,255,1) 100%);
+    border-radius: 25px;
+    position: relative;
+    bottom: 530px;
+    left: 650px;
+}
+.container .tatausaha{
+    width: 110px;
+    height: 110px;
+    background: rgb(198,254,255);
+    background: linear-gradient(0deg, rgba(198,254,255,1) 0%, rgba(54,185,241,1) 49%, rgba(0,144,255,1) 100%);
+    border-radius: 25px;
+    position: relative;
+    bottom: 640px;
+    left: 830px;
+}
+.contain{
+    width: 100%;
+    height: 500px;
+    border-radius: 3px solid black;
+    background-color: white;
+    position: relative;
+    bottom: 300px;
+}
+
+.contain{
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(79,177,235,1) 13%, rgba(0,142,226,1) 26%, rgba(0,142,226,1) 43%, rgba(32,172,255,1) 63%, rgba(196,233,255,1) 85%, rgba(214,240,255,1) 93%, rgba(255,255,255,1) 100%);
+    height: 4000px;
+}
+.contain p{
+    position: relative;
+    top:370px;
+    left: 650px;
+    font-family: arial;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    display: inline;
+    color: rgb(30, 202, 255);
+}
+#layanan h1{
+    position: relative;
+    top: 430px;
+    font-family: arial;
+    font-size: 35px;
+    width: 450px;
+    left: 250px;
+}
+.contain span{
+    color: rgb(255, 75, 75);
+}
+.contain article{
+    position: relative;
+    top: 500px;
+    margin-bottom:  35px; ;
+    width: 450px;
+    font-family: arial;
+    font-size: 18px;
+    left: 250px;
+}
+aside img{
+    position: relative;
+    left: 850px;
+    bottom: 60px;
+}
+#masalah{
+    position: relative;
+    top: 120px;
+    left: 440px;
+}
+#masalah h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#masalah span{
+    color: rgb(255, 127, 127);
+}
+#masalah h5{
+    color: white;
+    width: 400px;
+    font-weight:300;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 70px;
+    font-family: arial;
+}
+.mslh .Tunggakan{
+    position: relative;
+    left: 240px;
+    top: 200px;
+}
+.mslh .datahfizh{
+    bottom: 10px;
+    position: relative;
+    left: 570px;
+}
+.mslh .pembukuan{
+    bottom: 220px;
+    position: relative;
+    left: 900px;
+}
+.mslh .ribet{
+    position: relative;
+    bottom: 200px;
+    left: 240px;
+}
+.mslh .uangsaku{
+    position: relative;
+    bottom: 410px;
+    left: 570px;
+}
+.mslh .wali{
+    position: relative;
+    bottom: 620px;
+    left: 900px;
+}
+.mslh h2{
+    width: 410px;
+    color: white;
+    position: relative;
+    bottom: 500px;
+    left: 525px; 
+    text-align: center;
+    font-family: arial;
+    font-size: 30px;
+}
+.mslh h3{
+    color: white;
+    font-family: arial;
+    font-size: 18px;
+    width:550px;
+    text-align: center;
+    position: relative;
+    bottom: 480px;
+    left: 450px;
+    font-weight: 100;
+}
+.mslh a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: #00a0ff;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    bottom: 430px;
+    left: 640px;
+    transition-duration: 300ms;
+}
+.mslh a:hover{
+    background-color: blue;
+    color: gray;
+    font-size: 25px;
+    animation-duration: 300ms;
+}
+.unggulan{
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    bottom: 100px;
+    left: 150px;
+}
+#fitur h1{
+    position: relative;
+    padding: 10px;
+    background-color: white;
+    color: rgb(0,212,255);
+    color: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(0,195,237,1) 49%, rgba(42,255,245,1) 100%);
+    width: 130px;
+    font-size: 15px;
+    border-radius: 10px;
+    bottom: 70px;
+    left: 200px;
+}
+.garis .line{
+    background-color: black;
+    width: 500px;
+    height: 1px;
+    margin: 70px auto;
+}
+
+
